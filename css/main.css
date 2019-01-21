@@ -1,0 +1,74 @@
+body {
+  margin: 0px;
+}
+
+h1 {
+  text-align: center;
+  margin: 25px;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: steelblue;
+  margin-bottom: 100px;
+}
+
+ul {
+  height: 50px;
+  list-style-type: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  font-weight: bold;
+  padding: 15px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.pull-right {
+  float: right;
+}
+
+figure {
+  width: 50%;
+  float: left;
+}
+
+img {
+  display: block;
+  margin: 25px auto; /* margin is top, right, bottom, left */
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
+
+article {
+  padding: 25px;
+}
+
+p {
+  padding: 50px;
+  font-size: 130%;
+}
+
+footer {
+  width: 100%;
+  margin-top: 100px;
+  background-color: steelblue;
+  height: 175px;
+}
+
+footer>p {
+  width: 30%;
+  float: left;
+  padding: 25px;
+  font-size: 90%;
+}
