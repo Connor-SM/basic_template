@@ -1,0 +1,35 @@
+.bold-text {
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  width: 25px;
+  padding-left: 50px;
+}
+
+table {
+  width: 80vw;
+  height: 60vh;
+  margin: 50px auto;
+  border-collapse: collapse;
+}
+
+table tr th {
+  border-bottom: 6px solid steelblue; /* b-width, b-style, b-color */
+}
+
+table tr td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+table tr:nth-child(even) {
+  background-color: gray;
+}
+
+table tr td:hover {
+  font-weight: bold;
+  font-size: 150%;
+  background-color: steelblue;
+  color: white;
+  cursor: pointer;
+}
